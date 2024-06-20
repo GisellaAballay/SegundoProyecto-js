@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -31,15 +36,21 @@ body {
     padding: 2em;
     text-align: center;
   }
-  
+
+  .cajanav{
+    display: grid;
+
+  }
+
   .intro {
     max-width: 800px;
     margin: 0 auto;
   }
-  
+
+
   footer {
     background-color: #343a40;
-    color: rgb(189, 37, 37);
+    color: white;
     text-align: center;
     padding: 1em 0;
     position: fixed;
