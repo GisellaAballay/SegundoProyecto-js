@@ -137,7 +137,8 @@ main{
   }
 
   .grid .character {
-      width: 80%; 
+      width: 80%;
+      align-items: center; 
   }
 }
 
@@ -155,8 +156,6 @@ main{
 /* Responsive */
 
 @media (max-width: 768px) {
-
-
   .cajanav ul {
       flex-direction: column;   
   }
