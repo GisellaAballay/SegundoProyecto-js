@@ -155,18 +155,10 @@ main{
 /* Responsive */
 
 @media (max-width: 768px) {
-  nav ul li {
-      display: block;
-      margin: 10px 0;
-  }
+
 
   .cajanav ul {
-      flex-direction: column;
-      align-items: center;
-  }
-
-  .links {
-      flex: 1 1 80%;
+      flex-direction: column;   
   }
 }
 
@@ -176,14 +168,7 @@ main{
   }
 
   .links img {
-      max-width: 150px;
-  }
-
-  .pintro {
-      font-size: 1em;
-  }
-
-  .house p {
-      font-size: 0.9em;
+      max-width: 200px;
   }
 }
+
