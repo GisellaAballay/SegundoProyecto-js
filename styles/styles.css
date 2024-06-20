@@ -129,11 +129,31 @@ main{
   .grid .character img{
     width: 100%;
   }
-  
+
+/* Responsive personajes */
+@media (max-width: 768px) {
+  .grid {
+      grid-template-columns: 1fr; 
+  }
+
+  .grid .character {
+      width: 80%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .grid {
+      grid-template-columns: 1fr; 
+  }
+
+  .grid .character {
+      width: 100%;
+      padding: 10px; 
+  }
+}
 
 /* Responsive */
 
-/* Media Queries para dispositivos móviles */
 @media (max-width: 768px) {
   nav ul li {
       display: block;
