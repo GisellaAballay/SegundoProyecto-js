@@ -1,18 +1,23 @@
 
-<h1>Proyecto de API Harry Potter</h1>
-<p>Desarrollo de una página web utilizando Javascript para interactuar una API de Harry Potter con mostrar información acerca de los personajes,</p>
+<h1>[Proyecto de API Harry Potter]</h1>
+
+Desarrollo de una página web utilizando Javascript para interactuar una API de Harry Potter con mostrar información acerca de los personajes.
+
 <br>
 <h3>Estructura del proyecto</h3>
   <div>
-    <ul>Introduccion
-      <li>Bienvenida</li>
-      <li>Navegación a personajes, casas y hechizos</li>
+    <ul>
+        <h5>Introduccion</h5>
+        <li>Bienvenida</li>
+        <li>Navegación a personajes, casas y hechizos</li>
     </ul>
-    <ul>Casas
-      <li>Cards de casas, indicando la historia</li>
+    <ul>
+        <h5>Casas</h5>
+        <li>Cards de casas, indicando la historia</li>
     </ul>
-    <ul>Página de personajes
-      <li>Cards de personajes, indicando nombre, hechizo, casa, estado e imagen</li>
+    <ul>
+        <h5>Página de personajes</h5>
+        <li>Cards de personajes, indicando nombre, hechizo, casa, estado e imagen</li>
     </ul>
   </div>
 <br>
