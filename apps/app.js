@@ -28,18 +28,3 @@ fetch(urlApiHP)
     .catch(error => {
         console.error('Error fetching the characters:', error);
     });
-
-    //scrollButton
-    let scrollBtn = document.getElementById("scrollBtn");
-
-    // add event to scroll
-    document.addEventListener("scroll", function() {
-      // Show or hide the button depending on the scroll position
-      if (document.documentElement.scrollTop > 20) {
-        scrollBtn.style.display = "block";
-      } else {
-        scrollBtn.style.display = "none";
-      }
-    });
-    
-    scrollBtn.addEventListener("click", scrollToTop);
