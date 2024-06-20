@@ -19,7 +19,7 @@ fetch(urlApiHP)
           <p>Casa: ${character.house || 'No encontrada'}</p>
           <p>Patronus: ${character.patronus || 'No encontrada'}</p>
           <p>Estado: ${character.alive ? 'vive' : 'fallecido'}</p>
-          <p>actor: ${character.actor}</p>
+          <p>Actor: ${character.actor}</p>
         </div>
       `;
         });
